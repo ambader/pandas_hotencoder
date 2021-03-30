@@ -7,10 +7,10 @@ Use code from pandas_hotencoder.py
 ```python
 pandas_enc(df,"column",bins,m_co_var)
 ```
-df - pandas data frame\
-"column" - string of column to convert\
-bins - No. of wanted categories, default to 5\
-m_co_var - Cuts one column off by default. Can be set to False if multicollinearity is no issue
+<strong>df</strong> - pandas data frame\
+<strong>"column"</strong> - string of column to convert\
+<strong>bins</strong> - No. of wanted categories, default to 5\
+<strong>dm_co_varf</strong> - Cuts one column off by default. Can be set to False if multicollinearity is no issue
 
 ## How to use
 
