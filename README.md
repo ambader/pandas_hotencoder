@@ -1,13 +1,26 @@
 # pandas_hotencoder
 Convert pandas data frames from floats to categories and categories to dummies
 
+## Get code 
+Use code from pandas_hotencoder.py
+
+```python
+pandas_enc(df,"column",bins,m_co_var)
+```
+df - pandas data frame\\
+"column" - string of column to convert\\
+bins - No. of wanted categories, default to 5\\
+m_co_var - Cuts one column off by default. Can be set to False if multicollinearity is no issue
+
+## How to use
+
 ```python
 import numpy as np
 import pandas as pd
 
 df = pd.read_csv("sample.csv")
 ```
-
+use sample.csv, generated with make_sample.py
 
 ```python
 df.head()
