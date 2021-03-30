@@ -20,7 +20,7 @@ import pandas as pd
 
 df = pd.read_csv("sample.csv")
 ```
-use sample.csv, generated with make_sample.py
+use sample.csv, generated with ![make_sample.py](https://github.com/ambader/pandas_hotencoder/blob/main/make_sample.py)
 
 ```python
 df.head()
