@@ -13,15 +13,6 @@ df = pd.read_csv("sample.csv")
 df.head()
 ```
 
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -68,16 +59,6 @@ test = pandas_enc(df,"fruit")
 test
 ```
 
-
-
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
     
 <table border="1" class="dataframe">
   <thead>
@@ -192,18 +173,6 @@ test = pandas_enc(df,"fruit",m_co_var=False)
 test.head()
 ```
 
-
-
-
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -274,16 +243,6 @@ test = pandas_enc(df,"weight")
 test.head()
 ```
 
-
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -347,18 +306,6 @@ test.head()
 test = pandas_enc(df,"weight",15,False)
 test
 ```
-
-
-
-
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
 
 <table border="1" class="dataframe">
   <thead>
