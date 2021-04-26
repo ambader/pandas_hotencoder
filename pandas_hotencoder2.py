@@ -89,10 +89,7 @@ def pandas_enc(inp,col,bins=5,m_co_var=True):
     elif zw.dtype==int:
         print("Specify: str or float")
     elif zw.dtype=="O":
-        zzw=[]
-        for i in zw:
-            zzw.append(str(col)+"_"+str(i))
-        zw=pd.Series(zzw)
+        zw=str(col)+"_"+zw
         out2 = pandas_enc_str(zw,m_co_var)
     else:
         print("Strange dtype")
