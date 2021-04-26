@@ -6,7 +6,7 @@ def pandas_type(inp):
         print("Use pandas DataFrame")
         return False
     else:
-        if np.any(df.isnull()==True)==True:
+        if np.any(inp.isnull()==True)==True:
             print("Your data is a mess")
             return False
         else:
