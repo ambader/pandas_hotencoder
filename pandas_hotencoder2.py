@@ -87,6 +87,12 @@ def pandas_enc(inp,col,bins=5,m_co_var=True):
         out2 = out2[np.sort(out2.columns)]
         out2 = out2.rename(columns=cat_dic)
     elif zw.dtype==int:
+        zw = categorize_(zw,bins)
+        zw,cat_dic = cat_str(zw)
+        out2 = pandas_enc_str(zw,m_co_var)
+        out2 = out2[np.sort(out2.columns)]
+        out2 = out2.rename(columns=cat_dic)
+    elif zw.dtype==int:
         print("Specify: str or float")
     elif zw.dtype=="O":
         zw=str(col)+"_"+zw
