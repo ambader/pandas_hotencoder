@@ -2,7 +2,7 @@
 Convert pandas data frames from floats to categories and categories to dummies
 
 ## Get code 
-Use code from ![pandas_hotencoder.py](https://github.com/ambader/pandas_hotencoder/blob/main/pandas_hotencoder.py)
+Use code from ![pandas_hotencoder2.py](https://github.com/ambader/pandas_hotencoder/blob/main/pandas_hotencoder.py)
 
 ```python
 pandas_enc(df,"column",bins,m_co_var)
